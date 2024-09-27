@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.home-page {
+  text-align: center;
+  padding: 20px;
+}
+
+.property-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.property-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  padding: 16px;
+  text-align: center;
+}
+
+.cart, .checkout {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.filters input, .filters button {
+  margin: 10px;
+}
